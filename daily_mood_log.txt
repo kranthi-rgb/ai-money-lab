@@ -1,0 +1,18 @@
+Mood: tired
+Message: Rest if needed, but never quit your mission.
+----------------------
+Mood: sad
+Message: Every champion fights silent battles. Keep going.
+----------------------
+Mood: motivated
+Message: Focus sharp. Discipline wins everything.
+----------------------
+Mood: happy
+Message: Keep smiling. Your energy changes the world.
+----------------------
+Mood: bored
+Message: No matter your mood, move forward today.
+----------------------
+Mood: git add mood_ai_greeter.py
+Message: No matter your mood, move forward today.
+----------------------
