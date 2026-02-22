@@ -1,0 +1,9 @@
+[project]
+name = "ai-money-lab"
+version = "0.1.0"
+description = "AI Automation Learning Lab"
+authors = [{name = "Kranthi"}]
+requires-python = ">=3.10"
+
+[project.scripts]
+ai-money = "ai_money_lab.main:main"
