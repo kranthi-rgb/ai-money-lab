@@ -2,17 +2,19 @@
 __pycache__/
 *.pyc
 
-# Logs & runtime files
-logs/
-*.log
-
-# Data files
-data/
-
-# Environment
-.env
+# Virtual environments
 venv/
-.venv/
+.env/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Runtime output
+logs/
+data/
+daily_motivation.txt
 
 # OS files
 .DS_Store
