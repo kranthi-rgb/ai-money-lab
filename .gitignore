@@ -1,6 +1,19 @@
-daily_mood_log.json
-daily_motivation.txt
+# Python cache
 __pycache__/
 *.pyc
+
+# Logs & runtime files
 logs/
-data/*.json
+*.log
+
+# Data files
+data/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
