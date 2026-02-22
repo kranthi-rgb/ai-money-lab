@@ -27,13 +27,24 @@ def create_message(name: str, goal: str) -> str:
     return message
 
 
+from pathlib import Path
+
 def save_message(message: str, filename: str = "daily_motivation.txt"):
-    """Save message safely to file."""
-    file_path = Path(filename)
+    """Save message safely to logs folder."""
+
+    # Project root folder
+    project_root = Path(__file__).resolve().parent.parent
+
+    # logs directory
+    logs_dir = project_root / "logs"
+    logs_dir.mkdir(exist_ok=True)
+
+    # Final file path
+    file_path = logs_dir / filename
 
     try:
         file_path.write_text(message, encoding="utf-8")
-        print(f"✅ Message saved to {file_path.resolve()}")
+        print(f"✅ Message saved to {file_path}")
     except Exception as e:
         print(f"❌ Failed to save file: {e}")
 

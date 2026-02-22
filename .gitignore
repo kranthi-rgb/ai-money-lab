@@ -2,3 +2,5 @@ daily_mood_log.json
 daily_motivation.txt
 __pycache__/
 *.pyc
+logs/
+data/*.json
